@@ -5,16 +5,16 @@
     console.log('Optional Chaining\n');
 
     const person1 = {
-        name: 'Ellie',
+        name: 'Riel',
         job: {
             tirle: 'S/W Engineer',
             manager: {
-                name: 'Bob',
+                name: 'Jay',
             },
         },
     };
     const person2 = {
-        name: 'Bob',
+        name: 'Jay',
     };
 
     {
@@ -69,7 +69,7 @@
     // false: false, '', 0, null, undefined
     
     {
-        const name = 'Ellie';
+        const name = 'Riel';
         const userName = name || 'Guest';
         console.log(userName);
     }

@@ -4,25 +4,25 @@
  */ 
     console.log('Shorthand property names\n');
 
-    const ellie1 = {
-        name: 'Ellie',
-        age: '18',
+    const riel1 = {
+        name: 'Riel',
+        age: '26',
     };
 
-    const name = 'Ellie';
-    const age = '18';
+    const name = 'Riel';
+    const age = '26';
 
-    const ellie2 = {
+    const riel2 = {
         name: name,
         age: age,
     };
 
-    const ellie3 = {
+    const riel3 = {
         name,
         age,
     };
 
-    console.log(ellie1, ellie2, ellie3);
+    console.log(riel1, riel2, riel3);
 
     console.log('-----------------------------------------------------------------------------------------');
 
@@ -106,7 +106,7 @@
 /** 
  * Default parameters
  */ 
-    console.log('Default parametersn\n');
+    console.log('Default parameters\n');
     {
         function printMessage(message) {
             if (message == null) {
